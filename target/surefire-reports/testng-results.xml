@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-18T13:04:15 EET" name="Orange HRM Application Test" finished-at="2022-09-18T13:05:32 EET" duration-ms="77114">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPageTest.PerformValidLoginTest()[pri:1, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" name="PerformValidLoginTest" class="com.OrangeHRM.testcases.LoginPageTest"/>
+        <method signature="ResetPasswordTest.checkForgotPasswordFunctionality()[pri:1, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4]" name="checkForgotPasswordFunctionality" class="com.OrangeHRM.testcases.ResetPasswordTest"/>
+      </group> <!-- Regression -->
+      <group name="E2E">
+        <method signature="LoginPageTest.PerformValidLoginTest()[pri:1, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" name="PerformValidLoginTest" class="com.OrangeHRM.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.testLogo()[pri:3, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" name="testLogo" class="com.OrangeHRM.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.testTitle()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" name="testTitle" class="com.OrangeHRM.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.testURL()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" name="testURL" class="com.OrangeHRM.testcases.LoginPageTest"/>
+        <method signature="ResetPasswordTest.checkForgotPasswordFunctionality()[pri:1, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4]" name="checkForgotPasswordFunctionality" class="com.OrangeHRM.testcases.ResetPasswordTest"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test started-at="2022-09-18T13:04:15 EET" name="End To End Test Through Jenkins Using Parameterized Browser" finished-at="2022-09-18T13:05:32 EET" duration-ms="77114">
+      <class name="com.OrangeHRM.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:15 EET" name="setup" finished-at="2022-09-18T13:04:29 EET" duration-ms="14675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PerformValidLoginTest()[pri:1, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:29 EET" name="PerformValidLoginTest" finished-at="2022-09-18T13:04:32 EET" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformValidLoginTest -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:32 EET" name="tearDown" finished-at="2022-09-18T13:04:32 EET" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.PerformValidLoginTest() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PerformValidLoginTest status=SUCCESS method=LoginPageTest.PerformValidLoginTest()[pri:1, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:33 EET" name="setup" finished-at="2022-09-18T13:04:38 EET" duration-ms="4832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:38 EET" name="CheckLoginwithInvalidPasswordOrmail" data-provider="testLoginData" finished-at="2022-09-18T13:04:39 EET" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginwithInvalidPasswordOrmail -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:39 EET" name="tearDown" finished-at="2022-09-18T13:04:40 EET" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckLoginwithInvalidPasswordOrmail status=SUCCESS method=LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:40 EET" name="setup" finished-at="2022-09-18T13:04:44 EET" duration-ms="4257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:44 EET" name="CheckLoginwithInvalidPasswordOrmail" data-provider="testLoginData" finished-at="2022-09-18T13:04:45 EET" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginwithInvalidPasswordOrmail -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:45 EET" name="tearDown" finished-at="2022-09-18T13:04:45 EET" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckLoginwithInvalidPasswordOrmail status=SUCCESS method=LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:45 EET" name="setup" finished-at="2022-09-18T13:04:50 EET" duration-ms="4539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:50 EET" name="CheckLoginwithInvalidPasswordOrmail" data-provider="testLoginData" finished-at="2022-09-18T13:04:52 EET" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123245]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginwithInvalidPasswordOrmail -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:52 EET" name="tearDown" finished-at="2022-09-18T13:04:52 EET" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckLoginwithInvalidPasswordOrmail status=SUCCESS method=LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:52 EET" name="setup" finished-at="2022-09-18T13:04:58 EET" duration-ms="5435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:58 EET" name="CheckLoginwithInvalidPasswordOrmail" data-provider="testLoginData" finished-at="2022-09-18T13:04:59 EET" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[islam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12314asd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginwithInvalidPasswordOrmail -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:59 EET" name="tearDown" finished-at="2022-09-18T13:04:59 EET" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckLoginwithInvalidPasswordOrmail status=SUCCESS method=LoginPageTest.CheckLoginwithInvalidPasswordOrmail(java.lang.String, java.lang.String)[pri:2, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:04:59 EET" name="setup" finished-at="2022-09-18T13:05:12 EET" duration-ms="12537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testLogo()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:3, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:12 EET" name="testLogo" finished-at="2022-09-18T13:05:13 EET" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:13 EET" name="tearDown" finished-at="2022-09-18T13:05:13 EET" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testLogo()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testLogo status=SUCCESS method=LoginPageTest.testLogo()[pri:3, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:13 EET" name="setup" finished-at="2022-09-18T13:05:19 EET" duration-ms="5823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testTitle()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTitle()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:19 EET" name="testTitle" finished-at="2022-09-18T13:05:19 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:19 EET" name="tearDown" finished-at="2022-09-18T13:05:19 EET" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testTitle()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=SUCCESS method=LoginPageTest.testTitle()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:19 EET" name="setup" finished-at="2022-09-18T13:05:24 EET" duration-ms="5411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testURL()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testURL()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:24 EET" name="testURL" finished-at="2022-09-18T13:05:24 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859]" started-at="2022-09-18T13:05:24 EET" name="tearDown" finished-at="2022-09-18T13:05:24 EET" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.LoginPageTest.testURL()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testURL status=SUCCESS method=LoginPageTest.testURL()[pri:4, instance:com.OrangeHRM.testcases.LoginPageTest@3e48e859] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRM.testcases.LoginPageTest -->
+      <class name="com.OrangeHRM.testcases.ResetPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4]" started-at="2022-09-18T13:05:24 EET" name="setup" finished-at="2022-09-18T13:05:30 EET" duration-ms="5412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.ResetPasswordTest.checkForgotPasswordFunctionality() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkForgotPasswordFunctionality()[pri:1, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4]" started-at="2022-09-18T13:05:30 EET" name="checkForgotPasswordFunctionality" finished-at="2022-09-18T13:05:32 EET" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForgotPasswordFunctionality -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4]" started-at="2022-09-18T13:05:32 EET" name="tearDown" finished-at="2022-09-18T13:05:32 EET" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OrangeHRM.testcases.ResetPasswordTest.checkForgotPasswordFunctionality() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkForgotPasswordFunctionality status=SUCCESS method=ResetPasswordTest.checkForgotPasswordFunctionality()[pri:1, instance:com.OrangeHRM.testcases.ResetPasswordTest@31ddd4a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRM.testcases.ResetPasswordTest -->
+    </test> <!-- End To End Test Through Jenkins Using Parameterized Browser -->
+  </suite> <!-- Orange HRM Application Test -->
+</testng-results>

@@ -51,7 +51,7 @@ Or you can simply download the code from here https://github.com/islamhakim97/Je
   - Assert Login With InValid Data [Load Data From Excel Sheet].
   - Assert That User Can Login With valid Data . 
   - Assert Forgot Password Functionality Works as Expected .
-   -Parameterize the maven project with multiple browser options (chrome,Firefox,Safari,Headless Browser) at jenkins server.
+  - Parameterize the maven project with multiple browser options (chrome,Firefox,Safari,Headless Browser) at jenkins server.
 
  ## Parameterize the maven project with multiple browser options (chrome,Firefox,Safari,Headless Browser) at jenkins server
 

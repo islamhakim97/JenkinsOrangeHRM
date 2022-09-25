@@ -1,5 +1,5 @@
 # Jenkins-OrangHRM
-Advanced Features To OrangeHRM  were Added (AllureReport/automateRetryFailedTests Listener/Headless ChromeBrowser) and Run it From CMD Using MVN).
+Advanced Features To OrangeHRMJenkins  were Added (AllureReport/automateRetryFailedTests Listener/Headless ChromeBrowser) and Run it From CMD Using MVN).
 Can Be Integrated With Jenkins and Configured to any Bulid/Pipline .
 ## Parameterize the maven project with multiple browser options (chrome,Firefox,Safari,Headless Browser) at jenkins server.
 # Test-Automation-Selenium
